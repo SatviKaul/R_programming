@@ -1,0 +1,26 @@
+> ls()
+ [1] "a"             "apple"         "apple_colours" "BMI"           "fac_sweet"    
+ [6] "factor_apple"  "list1"         "m"             "sweet"         "V"            
+[11] "x"             "y"             "z"            
+> print(ls())
+ [1] "a"             "apple"         "apple_colours" "BMI"           "fac_sweet"    
+ [6] "factor_apple"  "list1"         "m"             "sweet"         "V"            
+[11] "x"             "y"             "z"            
+> print(ls(pattern="a"))
+[1] "a"             "apple"         "apple_colours" "fac_sweet"     "factor_apple" 
+> print(ls(pattern="c"))
+[1] "apple_colours" "fac_sweet"     "factor_apple" 
+> print(ls(all.name=TRUE))
+ [1] ".Random.seed"  "a"             "apple"         "apple_colours" "BMI"          
+ [6] "fac_sweet"     "factor_apple"  "list1"         "m"             "sweet"        
+[11] "V"             "x"             "y"             "z"            
+> #remove variable
+> rm(x)
+> print(ls(all.name=TRUE))
+ [1] ".Random.seed"  "a"             "apple"         "apple_colours" "BMI"          
+ [6] "fac_sweet"     "factor_apple"  "list1"         "m"             "sweet"        
+[11] "V"             "y"             "z"            
+> rm(list=ls())
+>  print(ls())
+character(0)
+[1] ".Random.seed"
