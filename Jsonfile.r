@@ -23,7 +23,6 @@ result
 
 jdf<-as.data.frame(result)
 jdf
-
 #  ID     Name Salary  StartDate       Dept
 #1  1     Rick  623.3   1/1/2012         IT
 #2  2      Dan  515.2  9/23/2013 Operations
@@ -33,4 +32,5 @@ jdf
 #6  6     Nina    578  5/21/2013         IT
 #7  7    Simon  632.8  7/30/2013 Operations
 #8  8     Guru  722.5  6/17/2014    Finance
+
 View(jdf)
