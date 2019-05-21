@@ -47,6 +47,7 @@ print(emp.data)
 #2      2      dan    152 2013-09-26
 #3      3 michalle    130 2015-12-15
 #4      4     gary    348 2016-01-07
+
 emp.data$dept<-c("IT","Operations","IT","HR")
 emp.data
 #  emp_ID emp_name salary start_date       dept
@@ -59,7 +60,6 @@ print(emp.data[c(3,5),c(2,4)])
 #   emp_name start_date
 #3  michalle 2015-12-15
 #NA     <NA>       <NA>
-
 
 emp.data2<-data.frame(emp_ID=c(1:4),emp_name=c("Rick","dan","michalle","gary"),salary=c(150,152,130,348),start_date=as.Date(c("2012-11-29","2013-09-26","2015-12-15","2016-01-07")),dept=c("IT","Operations","IT","HR"),stringsAsFactors = FALSE)
 emp.data3<-rbind(emp.data,emp.data2)
