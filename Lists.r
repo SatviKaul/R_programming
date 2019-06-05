@@ -1,8 +1,6 @@
 #LISTS
 list_data<-list(c("Jan","Feb","Mar"), matrix(c(3,9,5,1,-2,8), nrow=2), list("green",6.9))
 names(list_data)<-c("!st Quarter","A matrix","A Inner List")
-print(list_data[1])
-
 print(list_data[3])
 #`A Inner List`
 #'A Inner List`[[1]]
