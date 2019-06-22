@@ -12,6 +12,7 @@ library("XML")
 library("methods")
 result<-xmlParse(file="input.xml")
 print(result)
+
 ?xml version="1.0"?>
 <RECORDS>
   <EMPLOYEE>
